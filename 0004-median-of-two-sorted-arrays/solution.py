@@ -4,7 +4,7 @@ class Solution:
             nums1, nums2 = nums2, nums1
 
         m, n = len(nums1), len(nums2)
-        length = m +n
+        length = m + n
         low, high = 0, m
 
         while low <= high:
